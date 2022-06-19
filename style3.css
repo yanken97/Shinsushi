@@ -1,0 +1,46 @@
+.custom_footer{
+    background-color:#f7e1b0;
+    height:100px;
+}
+.custom_footer h3{
+    font-family: lobster;
+    animation:2s Shinsushi infinite;
+}
+.custom_footer a i{
+    font-size:25px;
+    margin-left:10px;
+}
+@keyframes Shinsushi{
+    0%{color:blue;}
+    15%{color:red;}
+    25%{color:blueviolet;}
+    45%{color:yellow;}
+    65%{color:rgb(64,93,230);}
+    85%{color:pink;}
+    100%{color:red}
+}
+@media screen and (max-width:390px) {
+    .googlemap iframe {
+        width:200px;
+        height:100px;
+    }
+    .custom_footer{
+        height:60px;
+    }
+    .custom_footer h3{
+        font-size:16px;
+        margin-bottom:0px;
+    }
+    .custom_footer a i{
+        font-size:16px;
+        margin-top:0px;
+    }
+    .custom_footer h4{
+        font-size:12px;
+    }
+}
+@media screen and (max-width:500px){
+    .custom_footer h4{
+        font-size:16px;
+    }
+}
