@@ -86,11 +86,11 @@ figure{
         padding-top:40px;
     }
     .slide img{
-        height:100px;
+        height:80px;
         width:85%;
     }
     .slider{
-        height:150px;
+        height:100px;
     }
     @keyframes slide{
         20%{

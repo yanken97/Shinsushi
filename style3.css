@@ -1,6 +1,7 @@
 .custom_footer{
     background-color:#f7e1b0;
     height:100px;
+    position:static;
 }
 .custom_footer h3{
     font-family: lobster;
@@ -21,11 +22,12 @@
 }
 @media screen and (max-width:390px) {
     .googlemap iframe {
-        width:200px;
+        width:150px;
         height:100px;
     }
     .custom_footer{
         height:60px;
+        width:100%;
     }
     .custom_footer h3{
         font-size:16px;
