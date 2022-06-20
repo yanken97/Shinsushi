@@ -11,6 +11,10 @@
     font-size:25px;
     margin-left:10px;
 }
+.googlemap iframe{
+    width:600px;
+    height:200px;
+}
 @keyframes Shinsushi{
     0%{color:blue;}
     15%{color:red;}
@@ -20,29 +24,33 @@
     85%{color:pink;}
     100%{color:red}
 }
-@media screen and (max-width:390px) {
+@media screen and (min-width:380px) {
+    body{
+    }
     .googlemap iframe {
-        width:150px;
+        width:200px;
         height:100px;
     }
     .custom_footer{
         height:60px;
-        width:100%;
+        margin-top:20px;
     }
     .custom_footer h3{
-        font-size:16px;
+        font-size:14px;
         margin-bottom:0px;
     }
     .custom_footer a i{
-        font-size:16px;
+        font-size:12px;
         margin-top:0px;
     }
-    .custom_footer h4{
+    .custom_footer p{
         font-size:12px;
+        
+
     }
 }
 @media screen and (max-width:500px){
-    .custom_footer h4{
+    .custom_footer p{
         font-size:16px;
     }
 }
