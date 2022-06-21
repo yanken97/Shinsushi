@@ -171,25 +171,23 @@ body{
     }
 }
 @media screen and (max-width:390px){
-    body{
-        height:844px;
-    }
     .navbar-custom-right{
         display:none;
     }
     .navbar-custom-left{
+        justify-content: center;
+        text-align:center;
         width:390px;
-        padding-left:45px;
+        padding-left:0px;
         padding-top:0px;
     }
     .navbar-custom-left div a{
         font-size:10px;
-        padding-left:5px;
-        padding-right:5px;
+        padding-left:2px;
+        padding-right:2px;
     }
     .navbar-custom-left div{
-        min-width:80px;
-    
+        min-width:60px;
     }
     .navbar-custom{
         height:30px;
